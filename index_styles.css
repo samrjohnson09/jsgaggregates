@@ -1,0 +1,671 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+    outline: 0;
+    vertical-align: baseline;
+	box-sizing: border-box;
+    background: transparent;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+body {
+    width: 100%;
+	margin: 0 auto;
+    background-color: #F3F3F3;
+    padding: 10px 0;
+}
+.wrapper {
+	width: 1346px;
+	margin: 0 auto;
+    background-color: #F3F3F3;
+}
+header {
+	background-color: #1A3802;
+	height: 120px;
+	width: 1346px;
+    padding: 20px 0 0 24px;
+    border-radius: 10px 10px 0 0;
+}
+.under {
+    background-color: #fff;
+    margin: 0 0 10px 0;
+    border-radius: 0 0 10px 10px;
+    padding-top: 10px;
+}
+.logo {
+    float: left;
+}
+h1 {
+    text-align: right;
+    color: #fff;
+    text-shadow: -3px 3px 0 #1A3802;
+    margin-bottom: 12px;
+}
+h2 {
+    color: #000;
+    margin-bottom: 16px;
+}
+h3 {
+    margin-bottom: 12px;
+}
+h6 {
+    text-align: center;
+    color: #fff;
+}
+.requestdesc {
+    text-align: center;
+}
+.specific {
+    float: left;
+    margin-bottom: 6px;
+}
+.pleasecall {
+    float: left;
+    margin-right: 40px;
+}
+.phone {
+    font-size: 48px;
+    float: left;
+}
+.placeorder {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+p {
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+ul {
+    list-style: none;
+    float: right;
+    margin: 28px 56px 0 0 ;
+}
+ul a {
+    margin-left: 48px;
+}
+li {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+}
+form {
+    width: 1266px;
+    margin: -20px 0 0 40px;
+}
+hr {
+    border: #1A3802 solid 5px;
+    margin: 0 0 10px 0;
+    border-radius: 0 0 10px 10px;
+}
+.formbg {
+    background-color: #fff;
+    height: 750px;
+}
+.historybutton {
+    background-color: #1A3802;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.restorationbutton {
+    background-color: #1A3802;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+.faqsbutton {
+    background-color: #1A3802;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0 0 40px;
+}
+.productslocations {
+    margin-bottom: 8px;
+}
+.sidesheading {
+    color: #fff;
+    text-shadow: -2px 2px 0 #1A3802;
+}
+.span {
+    height: 400px;
+    width: 1346px;
+    background-image: url("media/homespan.jpg");
+    background-position: 30% 30%;
+    padding: 36px 48px;
+}
+.historyspan {
+    height: 400px;
+    width: 1346px;
+    background-image: url("media/historyspan2.jpg");
+    background-position: 30% 30%;
+    padding: 36px 48px;
+}
+.body {
+    height: 720px;
+    width: 1346px;
+}
+.sectionpurpose {
+    float: left;
+    height: 60px;
+    width: 1346px;
+    text-align: left;
+    padding: 10px 12px 12px 12px;
+    background-color: #fff;
+}
+.desc {
+    text-align: right;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: -1px 1px 1px #1A3802;
+    margin: 2px 0 0 2px;
+}
+.sectionorder {
+    float: right;
+    height: 100px;
+    width: 668px;
+    padding: 20px 24px 24px 24px;
+    background-color: #1A3802;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.requestheading {
+    color: #000;
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+.sectionoffice {
+    float: right;
+    height: 566px;
+    width: 668px;
+    text-align: left;
+    padding: 20px 24px 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.sectionpandl {
+    float: left;
+    height: 256px;
+    width: 668px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.sectionproducts {
+    float: left;
+    height: 256px;
+    width: 329px;
+    text-align: left;
+    padding: 128px 24px 24px 24px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/productsspan.jpg");
+    background-repeat: no-repeat;
+    margin: 0 10px 10px 0;
+}
+.productsheading {
+    color: #000;
+    font-size: 48px;
+    margin: 0;
+    text-align: center;
+}
+.productheading {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+.productdesc {
+    margin-bottom: 4px;
+}
+.order {
+    background-color: #1A3802;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 233px;
+}
+.product1 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/34crushedstonechips.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product2 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/cobblestone.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product3 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/crushedgravel.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product4 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/screenings.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product5 {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/114recycledconcrete.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product6 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/114recycledasphalt.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product7 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/masonsand.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product8 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/torpedosand.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product9 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/peagravel.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product10 {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/no1washedstone.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.spacer {
+    float: left;
+    width: 140px;
+    height: 464px;
+    background-color: #F3F3F3;
+}
+.product11 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/no2washedstone.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product12 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/38limestonechips.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product13 {
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/34limestonetrafficbond.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.product14 {
+    float: left;
+    margin: 0 0 10px 0;
+    width: 261px;
+    height: 464px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/no2limestone.jpg");
+    background-repeat: no-repeat;
+    background-size: 261px;
+    padding: 14px 14px 10px 14px;
+}
+.sectionlocations {
+    float: left;
+    height: 256px;
+    width: 329px;
+    text-align: left;
+    padding: 128px 24px 24px 24px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: url("media/locationsspan.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.wisconsinmap {
+    text-align: center;
+}
+.map {
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+.locationheading {
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.locationmainoffice {
+    float: left;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 1346px;
+    height: 132px;
+    margin-bottom: 10px;
+    padding: 20px 24px 24px 24px;
+    background-image: url("media/officesmaller.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.locationleft {
+    float: left;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 442px;
+    height: 132px;
+    margin: 0 10px 10px 0;
+    padding: 20px 24px 24px 24px;
+}
+.locationright {
+    float: left;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 442px;
+    height: 132px;
+    margin: 0 0 10px 0;
+    padding: 20px 24px 24px 24px;
+}
+.click {
+    color: #1A3802;
+}
+.locations {
+    width: 1346px;
+    margin-top: -17px;
+}
+.sectionhistory {
+    float: left;
+    height: 200px;
+    width: 668px;
+    text-align: left;
+    padding: 20px 24px 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-image: url("media/historyspan1.jpg");
+    margin-bottom: 10px;
+}
+.historycontainer {
+    width: 1346px;
+    height: 880px;
+    padding: 20px 24px 2px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.faqheader {
+    float: left;
+    width: 1346px;
+    padding: 12px 24px 2px 24px;
+    background-color: #1A3802;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.faqheading {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+}
+.faqscontainerleft {
+    float: left;
+    width: 668px;
+    padding: 20px 24px 2px 24px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+.faqscontainerright {
+    float: left;
+    width: 668px;
+    padding: 20px 24px 2px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.faqscontainerright2 {
+    float: left;
+    width: 668px;
+    height: 530px;
+    padding: 20px 24px 2px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.historyp {
+    font-size: 16px;
+    float: left;
+}
+.johnsons {
+    float: right;
+    margin: 0 0 10px 10px;
+    border-radius: 10px;
+}
+.sectionrestoration {
+    float: left;
+    height: 200px;
+    width: 668px;
+    text-align: right;
+    padding: 20px 24px 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    background-image: url("media/restorationspan1.jpg");
+}
+.restorationheader {
+    text-align: left;
+}
+.restorationheading {
+    text-align: left;
+    color: #000;
+    text-shadow: none;
+    margin-bottom: 0px;
+    font-size: 33px;
+}
+.restorationdesc {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.containerwctc {
+    float: left;
+    width: 442px;
+    height: 647px;
+    background-image: url("media/wctc.jpg");
+    background-repeat: no-repeat;
+    padding: 310px 24px 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+.containergalilee {
+    float: left;
+    width: 442px;
+    height: 647px;
+    background-image: url("media/galileechurch.jpg");
+    background-repeat: no-repeat;
+    padding: 310px 24px 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 10px 10px 0;
+}
+.containerhwyj {
+    float: left;
+    width: 442px;
+    height: 647px;
+    background-image: url("media/highwayj.jpg");
+    background-repeat: no-repeat;
+    padding: 310px 24px 24px 24px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    float: left;
+    height: 50px;
+    width: 1346px;
+    padding: 20px 24px 24px 24px;
+    background-color: #1A3802;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* links */
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+a:unvisited {
+    color: #fff;
+}
+a:hover {
+    color: #D0FCAD;
+}
+.click:hover {
+    color: #4BA305;
+}
+/* form */
+.form-group {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  height: 50px;
+  width: 1266px;
+  padding: 4px 20px;
+  background-color: #1A3802;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+input[type="submit"]:hover {
+  color: #D0FCAD;
+}
